@@ -178,6 +178,10 @@ footer{
 
 }
 
+.social-icons .fa:hover{
+    color:rgb(120, 120, 120);
+}
+
 .social-icons .fa-facebook-f{
     color: blue;
 }
@@ -202,6 +206,16 @@ footer{
     padding: 0;
     gap: 24px;
     font-size: 20px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-link a:hover{
+    color: rgb(160, 160, 160);
 }
 
 .copyright{
