@@ -194,3 +194,20 @@ footer{
     color: red;
 }
 
+.footer-links{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    padding: 0;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 8px;
+
+}
+
