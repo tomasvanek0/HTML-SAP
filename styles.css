@@ -1,5 +1,6 @@
 ﻿*{
     scroll-behavior: smooth;
+    box-sizing: border-box; /*šířka formuláře. aby byl všude stejně široký*/
 }
 
 body
@@ -224,5 +225,66 @@ footer{
     text-align: center;
     font-size: 8px;
 
+}
+
+.contact {
+    text-align: center;
+    font-size: 48px;
+}
+
+#contact-form{
+    width: 25%;
+    margin: auto;
+
+
+}
+
+.contact-container{
+    margin: 80px;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+
+input[type="button"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+input[type="button"]:hover{
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+
+label{
+    font-size: 22px;
+    text-align: left;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
