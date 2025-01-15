@@ -388,10 +388,10 @@ textarea{
 .ticket-button{
     position: absolute;
     top: 50%;
-    left: 75%;
-    width: 160px;
+    left: 90%;
+    width: 200px;
     height: 40px;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
     padding: 8px;
     font-size: 22px;
     margin-top: 8px;
@@ -418,6 +418,6 @@ textarea{
 .p-ticket{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
 }
