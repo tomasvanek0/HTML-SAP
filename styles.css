@@ -433,3 +433,30 @@ textarea{
     left: 80%;
     transform: translate(-50%, -50%);
 }
+
+.merch {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 40px 0;
+    padding: 0;
+
+}
+
+.merch-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.merch-one img {
+    height: 470px;
+    width: 250px;
+}
+
+.merch-one p {
+    text-align: left;
+}
+
+.merch-one h3 {
+    text-align: center;
+}
