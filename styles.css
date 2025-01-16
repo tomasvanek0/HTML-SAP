@@ -395,7 +395,7 @@ textarea{
     left: 90%;
     width: 200px;
     height: 40px;
-    transform: translate(0%, -50%);
+    transform: translate(-25%, -75%);
     padding: 8px;
     font-size: 22px;
     margin-top: 8px;
@@ -403,6 +403,7 @@ textarea{
     background-color: black;
     color: white;
     border: none;
+
 
 }
 .ticket-button:hover{
@@ -423,5 +424,12 @@ textarea{
     position: absolute;
     top: 50%;
     left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.price {
+    position: absolute;
+    top: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
 }
