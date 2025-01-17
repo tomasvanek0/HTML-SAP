@@ -446,6 +446,7 @@ textarea{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 .merch-one img {
@@ -459,4 +460,11 @@ textarea{
 
 .merch-one h3 {
     text-align: center;
+}
+
+
+.size {
+    width: 40px;
+    height: 40px;
+    
 }
