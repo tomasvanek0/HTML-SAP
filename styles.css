@@ -467,14 +467,14 @@ textarea{
 .size {
     width: 40px;
     height: 40px;
-
+    border: none;
     top: 90%;
     
 }
 .quantity {
     width: 40px;
     height: 40px;
-
+    border: none;
     top: 95%;
 }
 
