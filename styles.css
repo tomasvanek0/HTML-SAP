@@ -309,6 +309,7 @@ textarea{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
+    border-top: 4px solid black;
 
 
 }
@@ -330,6 +331,7 @@ textarea{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
+    border-top: 4px solid black;
 
 
 }
@@ -351,6 +353,7 @@ textarea{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
+    border-top: 4px solid black;
 
 
 }
@@ -372,6 +375,7 @@ textarea{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
+    border-top: 4px solid black;
 
 
 }
@@ -388,10 +392,10 @@ textarea{
 .ticket-button{
     position: absolute;
     top: 50%;
-    left: 75%;
-    width: 160px;
+    left: 90%;
+    width: 200px;
     height: 40px;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -75%);
     padding: 8px;
     font-size: 22px;
     margin-top: 8px;
@@ -399,6 +403,7 @@ textarea{
     background-color: black;
     color: white;
     border: none;
+
 
 }
 .ticket-button:hover{
@@ -418,6 +423,78 @@ textarea{
 .p-ticket{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
 }
+
+.price {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.merch {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0 80px 0;
+    padding: 0;
+
+}
+
+.merch-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.merch-one img {
+    height: 470px;
+    width: 100%;
+}
+
+.merch-one p {
+    text-align: left;
+}
+
+.merch-one h3 {
+    text-align: center;
+}
+
+
+.size {
+    width: 40px;
+    height: 40px;
+    border: none;
+    top: 90%;
+    
+}
+.quantity {
+    width: 40px;
+    height: 40px;
+    border: none;
+    top: 95%;
+}
+
+.merch-button {
+    position: absolute;
+    top: 93.45%;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.merch-button:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
